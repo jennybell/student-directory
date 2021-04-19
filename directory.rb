@@ -11,6 +11,8 @@ puts "Freddy Krueger"
 puts "The Joker"
 puts "Joffrey Baratheon"
 puts "Norman Bates"
+# total number of students printed after list
 print "Overall, we have "
+# it's importent that print doesn't add new line characters
 print 11
 print " great students"
