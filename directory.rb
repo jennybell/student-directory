@@ -22,8 +22,8 @@ def print_header
   puts "-------------"
 end
 
-def print(students)
-  students.each_with_index do |student, index|
+def print_student_list
+  @students.each_with_index do |student, index|
     puts "#{index + 1}. #{student[:name]} (#{student[:cohort]} cohort)"
   end 
 end
@@ -58,10 +58,9 @@ def process(selection)
   end
 end
 
-
 def show_students
   print_header
-  print(@students)
+  print_student_list
   print_footer(@students)
 end
 
